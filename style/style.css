@@ -16,7 +16,7 @@
     --descrip-color:#727272;
 
 }
-
+/* common css */
 .common-color {
     background: var(--bg-color);
 }
@@ -79,6 +79,7 @@
     align-items: center;
     width: 50%;
     margin: 0 auto;
+    padding-bottom: 20px;
 
 }
 
