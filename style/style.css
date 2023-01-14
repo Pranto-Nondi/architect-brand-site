@@ -21,7 +21,8 @@
 .hide {
     /* display: none; */
 }
-.span-color{
+
+.span-color {
     color: var(--btn-bg-color);
 }
 
@@ -114,7 +115,7 @@
 
 }
 
-/* Quick list of Our Features */
+/* Quick list of Our Features part*/
 .Quick-list-container {
     display: flex;
     justify-content: center;
@@ -152,8 +153,35 @@
 
 }
 
+/* Features you will love & enjoy part */
+.features-container {
+    display: flex;
+    margin: 0 auto;
+   
+    
+}
 
+.feature-info {
+    width: 40%;
+    height: 982px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
 
+}
+
+.features-img {
+    width: 40%;
+    height: 1059px;
+    margin-right: 70px;
+    
+}
+
+.features-img>img {
+    width: 100%;
+  
+
+}
 
 
 
@@ -206,9 +234,10 @@
     /* Quick list of Our Features part */
     .Quick-list-container {
         flex-direction: column;
-       
+
 
     }
+
     .Quick-list-img-container {
         width: 100%;
         display: grid;
@@ -216,17 +245,19 @@
         grid-gap: 15px;
         margin: 0 auto;
         padding: 0px 10px;
-    
+
     }
+
     .Quick-list-img-container img {
         width: 100%;
-       
+
     }
+
     .Quick-list-descrip {
-        text-align:left;
+        text-align: left;
         width: 100%;
         padding-top: 10px;
-        
+
     }
-    
+
 }
