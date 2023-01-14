@@ -13,13 +13,15 @@
     --primary-color: #131313;
     --btn-txt-color: #FFFFFF;
     --btn-bg-color: #FF900E;
-    --descrip-color:#727272;
+    --descrip-color: #727272;
 
 }
+
 /* common css */
 .common-color {
     background: var(--bg-color);
 }
+
 .common-brand-title {
     font-weight: 600;
     font-size: 35px;
@@ -30,6 +32,14 @@
     font-size: 13px;
     color: var(--descrip-color);
     padding: 10px 0;
+}
+.common-btn {
+    width: 150px;
+    height: 50px;
+    background-color: var(--btn-bg-color);
+    color: var(--btn-txt-color);
+    border: none;
+    border-radius: 5px;
 }
 
 /* nav menu  */
@@ -62,7 +72,7 @@
 
 .architects-top-title {
     font-weight: 600;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .nav-tittle {
@@ -91,19 +101,11 @@
 
 .banner-div img {
     width: 100%;
-    height: 25%;
+    height: 30%;
     margin: 0 auto;
 
 }
 
-.common-btn {
-    width: 150px;
-    height: 50px;
-    background-color: var(--btn-bg-color);
-    color: var(--btn-txt-color);
-    border: none;
-    border-radius: 5px;
-}
 
 
 
@@ -127,6 +129,32 @@
         gap: 8px;
         justify-content: center;
         padding-bottom: 10px;
+    }
+
+    /* architects brand new part */
+    .common-brand-title {
+        font-weight: 300;
+        font-size: 20px;
+    }
+
+    .common-p-tag {
+        font-weight: 200;
+        font-size: 10px;
+        color: var(--descrip-color);
+
+    }
+
+    .common-btn {
+        width: 100px;
+        height: 40px;
+        border-radius: 5px;
+        font-weight: 200;
+        font-size: 12px;
+    }
+    .banner-div img {
+        height: 100px;
+     
+    
     }
 
 }
