@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+:root {
+    --bg-color: rgba(255, 144, 14, 0.1);
+    --primary-color: #131313;
+
+}
+.nav-container {
+    background: var(--bg-color);
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0 10px;
+}
+.nav-left,
+.nav-right-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 5px;
+}
+.nav-right-info{
+    gap: 0 20px;
+}
+.architects-top-title,
+.nav-tittle {
+
+    color: var(--primary-color);
+}
+
+.architects-top-title {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.nav-tittle {
+    font-weight: 500;
+    font-size: 18px;
+}
