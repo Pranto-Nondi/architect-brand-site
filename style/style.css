@@ -6,15 +6,32 @@
     font-family: 'Poppins', sans-serif;
 
 }
- /* common-css-style */
+
+/* common-css-style */
 :root {
     --bg-color: rgba(255, 144, 14, 0.1);
     --primary-color: #131313;
+    --btn-txt-color: #FFFFFF;
+    --btn-bg-color: #FF900E;
+    --descrip-color:#727272;
 
 }
-.common-color{
+
+.common-color {
     background: var(--bg-color);
 }
+.common-brand-title {
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.common-p-tag {
+    font-weight: 200;
+    font-size: 13px;
+    color: var(--descrip-color);
+    padding: 10px 0;
+}
+
 /* nav menu  */
 .nav-container {
     height: 90px;
@@ -23,6 +40,7 @@
     align-items: center;
     gap: 0 10px;
 }
+
 .nav-left,
 .nav-right-info {
     display: flex;
@@ -31,9 +49,11 @@
     text-align: center;
     padding-top: 5px;
 }
-.nav-right-info{
+
+.nav-right-info {
     gap: 0 20px;
 }
+
 .architects-top-title,
 .nav-tittle {
 
@@ -49,25 +69,39 @@
     font-weight: 500;
     font-size: 18px;
 }
+
 /* main part starts */
 /* architects brand new part */
 
-.architects-brand-conatiner{
+.architects-brand-conatiner {
     display: grid;
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: repeat(1, 1fr);
     align-items: center;
     width: 50%;
     margin: 0 auto;
-   
+
 }
-.architects-brand-info >div{
+
+.architects-brand-info>div {
     text-align: center;
 }
+
+
+
 .banner-div img {
-   width: 100%;
-   height: 25%;
-   margin: 0 auto;
-   
+    width: 100%;
+    height: 25%;
+    margin: 0 auto;
+
+}
+
+.common-btn {
+    width: 150px;
+    height: 50px;
+    background-color: var(--btn-bg-color);
+    color: var(--btn-txt-color);
+    border: none;
+    border-radius: 5px;
 }
 
 
@@ -93,5 +127,5 @@
         justify-content: center;
         padding-bottom: 10px;
     }
-    
+
 }
