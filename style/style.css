@@ -1,3 +1,4 @@
+/* universal all set */
 * {
     margin: 0;
     padding: 0;
@@ -11,9 +12,11 @@
     --primary-color: #131313;
 
 }
+.common-color{
+    background: var(--bg-color);
+}
 /* nav menu  */
 .nav-container {
-    background: var(--bg-color);
     height: 90px;
     display: flex;
     justify-content: space-around;
@@ -46,6 +49,36 @@
     font-weight: 500;
     font-size: 18px;
 }
+/* main part starts */
+/* architects brand new part */
+
+.architects-brand-conatiner{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+   
+}
+.architects-brand-info >div{
+    text-align: center;
+}
+.banner-div img {
+   width: 100%;
+   height: 25%;
+   margin: 0 auto;
+   
+}
+
+
+
+
+
+
+
+
+
+
 
 /* use media query for mobile  */
 
@@ -58,7 +91,7 @@
         height: 16%;
         gap: 8px;
         justify-content: center;
-
+        padding-bottom: 10px;
     }
     
 }
