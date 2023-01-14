@@ -21,6 +21,9 @@
 .hide {
     /* display: none; */
 }
+.span-color{
+    color: var(--btn-bg-color);
+}
 
 .common-color {
     background: var(--bg-color);
