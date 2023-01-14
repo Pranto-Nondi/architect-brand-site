@@ -205,7 +205,7 @@
 
     /* Quick list of Our Features part */
     .Quick-list-container {
-        flex-direction: column-reverse;
+        flex-direction: column;
        
 
     }
@@ -215,7 +215,7 @@
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 15px;
         margin: 0 auto;
-        padding: 10px 20px;
+        padding: 0px 10px;
     
     }
     .Quick-list-img-container img {
@@ -225,6 +225,7 @@
     .Quick-list-descrip {
         text-align:left;
         width: 100%;
+        padding-top: 10px;
         
     }
     
