@@ -18,6 +18,10 @@
 }
 
 /* common css */
+.hide {
+    /* display: none; */
+}
+
 .common-color {
     background: var(--bg-color);
 }
@@ -113,10 +117,9 @@
     justify-content: center;
     align-items: center;
     margin: 30px 0;
-   
-   
-   
-   
+    padding: 20px 0;
+
+
 }
 
 .Quick-list-img-container {
@@ -125,26 +128,25 @@
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 15px;
     margin: 0 auto;
-   
-   
+
+
 }
 
 .Quick-list-img-container img {
     width: 330px;
     height: 330px;
-   
+
 }
 
 .Quick-list-descrip {
-    width:30%;
-  
+    width: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
     padding-left: 25px;
- 
-    
+
+
 }
 
 
@@ -198,4 +200,29 @@
 
     }
 
+    /* Quick list of Our Features part */
+    .Quick-list-container {
+        flex-direction: column-reverse;
+       
+
+    }
+    .Quick-list-img-container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 15px;
+        margin: 0 auto;
+        padding: 10px 20px;
+    
+    }
+    .Quick-list-img-container img {
+        width: 100%;
+       
+    }
+    .Quick-list-descrip {
+        text-align:left;
+        width: 100%;
+        
+    }
+    
 }
