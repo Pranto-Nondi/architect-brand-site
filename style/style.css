@@ -387,6 +387,34 @@
 
 /* sponsers part */
 
+.sponsers-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sponsers-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+.sponsers-descrip{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+.sponser-img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 40px;
+    height: 200px;
+}
+.sponser-img-container img{
+    width: 166.76px;
+    height: 40px;
+}
 
 
 /* use media query for mobile  */
