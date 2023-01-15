@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-
+    
 }
 
 /* common-css-style */
@@ -160,10 +160,6 @@
     height: 750px;
 
 
-
-
-
-
 }
 
 .feature-info {
@@ -196,6 +192,7 @@
     width: 550px;
     height: 700px;
     margin-right: 70px;
+
 
 }
 
@@ -429,11 +426,11 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color:#FFF4E7;
+    background-color: #FFF4E7;
     width: 50%;
     height: 90px;
     margin: 0 auto;
-   
+
 }
 
 
@@ -516,6 +513,7 @@
         height: 1360px;
 
 
+
     }
 
     .feature-info {
@@ -563,11 +561,6 @@
     }
 
     /* some facts part */
-    .facts-container {
-        /* display: flex;
-        justify-content: center;
-        align-items: center; */
-    }
 
     .cards-container {
         flex-direction: column;
@@ -604,9 +597,11 @@
         width: 100px;
         height: 50px;
     }
-    .footer{
+
+    .footer {
         width: 100%;
         display: block;
         margin-top: 80px;
+
     }
 }
