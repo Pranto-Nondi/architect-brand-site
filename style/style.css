@@ -430,11 +430,11 @@
 
     /* extra part */
     .container .box:hover .content {
-        transform: translate(0, 3.5rem);
+        transform: translate(0, 2.5rem);
     }
 
     .container .box:hover .imgBox {
-        transform: translate(0, -3.5rem);
+        transform: translate(0, -2.5rem);
     }
 }
 
