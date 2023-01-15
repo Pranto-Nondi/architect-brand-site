@@ -249,7 +249,7 @@
     border: 2px dashed orange;
 }
 
-.some-facts-container {
+.extra-part-container {
     width: 100vw;
     min-height: 100vh;
     background-color: #f0f0f0;
@@ -385,6 +385,7 @@
     background-color: #dac7c7;
 }
 
+/* sponsers part */
 
 
 
@@ -533,6 +534,7 @@
         margin-bottom: 20px;
         
     }
+    /* sponsers part */
 
     
 }
