@@ -336,16 +336,20 @@
 .facts-container h2 {
     font-weight: 700;
     font-size: 30px;
-    margin-left: 150px;
     margin-top: 50px;
 }
 
-.facts-container >p {
+.facts-container>p {
     font-weight: 400;
     font-size: 16px;
-    margin-left: 150px;
+    
 }
-
+.some-facts-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
 .cards-container {
 
     display: flex;
@@ -507,4 +511,28 @@
         font-size: 30px;
 
     }
+
+    /* some facts part */
+    .facts-container {
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+    }
+
+    .cards-container {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    .card {
+        width: 200px;
+        height: 200px;
+    }
+    .some-facts-info{
+        text-align: center;
+        margin-bottom: 20px;
+        
+    }
+
+    
 }
