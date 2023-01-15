@@ -161,6 +161,8 @@
 
 
 
+
+
 }
 
 .feature-info {
@@ -184,8 +186,9 @@
 }
 
 .features-img {
-    width: 40%;
-    height: 1059px;
+    /* width: 40%; */
+    width: 550px;
+    height: 700px;
     margin-right: 70px;
 
 
@@ -196,12 +199,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-   
-    
+
 }
 
 .feature-btn {
-
 
     margin-top: -60px;
     margin-right: -70px;
@@ -302,4 +303,44 @@
 
     }
 
+    /* Features you will love & enjoy part */
+    .features-container {
+
+        flex-direction: column;
+        padding: 0 10px;
+        height: 1360px;
+
+
+    }
+
+    .feature-info {
+
+        width: 100%;
+    }
+
+    .features-img {
+        width: 100%;
+    }
+
+    .btn-container {
+         
+       
+        margin-top: 5px;
+
+
+    }
+
+    .feature-btn {
+
+        margin: 0 auto;
+        width: 200px;
+        height: 90px;
+        font-weight: 600;
+        font-size: 25px;
+        border-radius: 8px;
+        
+
+    }
+
+    
 }
