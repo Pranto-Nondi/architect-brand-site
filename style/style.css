@@ -157,8 +157,10 @@
 .features-container {
     display: flex;
     margin: 0 auto;
-   
-    
+    height: 750px;
+
+
+
 }
 
 .feature-info {
@@ -170,16 +172,53 @@
 
 }
 
+.feature-info h1 {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.right-line {
+    border-left: 5px solid var(--btn-bg-color);
+    padding: 0 10px;
+
+}
+
 .features-img {
     width: 40%;
     height: 1059px;
     margin-right: 70px;
-    
+
+
+}
+
+.btn-container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-btn {
+
+
+    margin-top: -60px;
+    margin-right: -70px;
+    z-index: 1;
+    width: 250px;
+    height: 100px;
+    font-weight: 700;
+    font-size: 30px;
+
+}
+
+.feature-btn span {
+    font-weight: 500;
+    font-size: 25px;
 }
 
 .features-img>img {
     width: 100%;
-  
+    position: relative;
 
 }
 
