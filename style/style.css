@@ -184,7 +184,10 @@
     padding: 0 10px;
 
 }
-
+.common-box-shadow{
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
 .features-img {
     /* width: 40%; */
     width: 550px;
@@ -204,7 +207,7 @@
 
 .feature-btn {
 
-    margin-top: -60px;
+    margin-top: -50px;
     margin-right: -70px;
     z-index: 1;
     width: 280px;
@@ -212,6 +215,7 @@
     font-weight: 700;
     font-size: 40px;
     border-radius: 8px;
+   
 
 }
 
